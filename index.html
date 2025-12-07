@@ -1,58 +1,209 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
 
-  <html>
-
-    <head>
-     <style>
-      @font-face {
+<style>
+@font-face {
     font-family: 'Luminari';
     src: url('Luminari-Regular.ttf') format('truetype');
-      }
-      .luminari-title {
-       font-family: 'Luminari', serif;
-      }
+}
+.luminari-title {
+    font-family: 'Luminari', serif;
+}
 </style>
 
+<img src="WebBanner2023.png" alt="Banner" width="1000" height="250">
+<h1><b>ENG0018 Computer Laboratory 2025/26</b><h1>
+<h2>Student URN: 6922025</h2>
+<hr>
+<h2>Conference paper: <span class="luminari"><b> Sustainable Hybrid Energy Systems for Low-Income Communities </b></span></h2>
+</hr>
 
-   <img src="WebBanner2023.png" alt="Banner" width="1000" height="250">
-   <h1><b>ENG0018 Computer Laboratory 2025/26</b><h1>
-    <h2>Student URN: 6922025</h2>
-    <hr>
-    <h2>Conference paper: <span class="luminari"><b>Superconductors</b></span></h2>    
-    </hr>
-    
-    <!style for tables>
-    <style>
-     table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 30%
-     }
+<!style for tables>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 30%
+}
 
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
 
-     td, th {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-     }
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
 
-     tr:nth-child(even) {
-      background-color: #dddddd;
-     }
+<style>
+p.ex1 {
+    margin-left: 250px;
+}
+</style>
 
-    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"href="https://www.w3schools.com/w3css/4/w3.css">
+<style>.mySlides {display:none;}</style>
 
-    <style>
-     p.ex1 {
-      margin-left: 250px;
-     }
-    </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet"href="https://www.w3schools.com/w3css/4/w3.css">
-    <style>
-    .mySlides {display:none;}
-    </style>
-    
-    </head>
-    
-   </html>
+</head>
+
+<body>
+
+<!-- ================================ -->
+<!-- 🚀 ADDED NEW FEATURES -->
+<!-- ================================ -->
+
+<hr>
+
+<!-- Timestamp -->
+<p><b>Timestamp:</b> <span id="timestamp">Loading…</span></p>
+
+<!-- Table of contents -->
+<h2><b>Table of Contents</b></h2>
+<ul>
+  <li><a href="#abstract">Abstract</a></li>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#analysis">Analysis & Discussion</a></li>
+  <li><a href="#design">Hybrid System Design</a></li>
+  <li><a href="#conclusion">Conclusion</a></li>
+  <li><a href="#references">References</a></li>
+</ul>
+
+<hr>
+
+<!-- ABSTRACT -->
+<h3 id="abstract">Abstract  
+  <span style="font-size:14px; color:black;">(Word count: <span class="wc" data-wc="abstract">0</span>)</span>
+</h3>
+
+<!-- INTRODUCTION -->
+<h3 id="introduction">Introduction  
+  <span style="font-size:14px; color:black;">(Word count: <span class="wc" data-wc="introduction">0</span>)</span>
+</h3>
+
+<p>
+“Over 800 million people still lack access to electricity, and those with a grid-connection often suffer from an
+unreliable supply” (Rapid market assessment of energy storage, 2019). Unreliable electricity is a major problem for
+many low-income areas, where national grids are often poorly maintained, overloaded or affected by political and
+economic instability (Avordeh et al., 2024). Outages can cut households off from lighting, communication,
+refrigeration and essential medical devices, lasting from hours to even days. Therefore, these communities require
+affordable, durable and maintainable alternative sources of electricity. “However, the technological and market
+conditions to unlock these markets remain under-researched.” (Faraday Institution, n.d.).
+</p>
+
+<!-- ANALYSIS -->
+<h3 id="analysis">Analysis & Discussion  
+  <span style="font-size:14px; color:gray;">(Word count: <span class="wc" data-wc="analysis">0</span>)</span>
+</h3>
+
+<p>
+Several solutions exist to address unreliable electricity, but none fully meet the criteria of affordability,
+durability and ease of maintenance (Faraday Institution, n.d.). Diesel generators are widely used where extending
+the national grid is too costly, making them a practical short-term option (Flavin, 1986). They provide essential
+services, but their long-term disadvantages include unstable fuel costs, frequent maintenance, high repair expenses,
+pollution and noise (PowerUP Energy Technologies, 2021). Solar panels are a cleaner alternative, but installation
+costs, space requirements and weather dependence can limit their effectiveness (Muzan Williams et al., 2024).
+</p>
+
+<p>
+Hybrid solutions—such as solar-battery-generator systems—offer improved affordability, being “28%-36% cheaper
+than diesel-only systems in countries with high generator use” (Rapid market assessment of energy storage, 2019).
+Waste-to-fuel systems, especially plastic pyrolysis, also offer potential low-cost electricity if carefully managed to
+avoid environmental and health risks (U.S. Energy Information Administration, 2022). These options show the
+importance of combining multiple energy sources and storage to create sustainable, reliable systems for low-income
+households.
+</p>
+
+<!-- HYBRID SYSTEM DESIGN -->
+<h3 id="design">Hybrid System Design  
+  <span style="font-size:14px; color:gray;">(Word count: <span class="wc" data-wc="design">0</span>)</span>
+</h3>
+
+<p>
+Understanding generator behaviour is crucial when designing hybrid household systems. Generators provide backup
+power when solar energy is insufficient or demand is high (Prorichmotor.com, 2022). Small generators can be built
+using DC motors driven by pedals or hand cranks, though efficiency must be prioritised to avoid extremely low power
+output (Dincer & Rosen, 2011). Flywheels may be added to stabilise rotation and provide consistent electrical output
+(Luo et al., 2015).
+</p>
+
+<p>
+For generators to be viable in low-income regions, they must be low-cost, use recycled materials such as bicycle
+parts or scrap metal, and avoid complex electronics that increase cost and failure rate. Local manufacturability is
+key; devices that require specialised tools or parts are less accessible and harder to repair (Dincer & Rosen, 2011).
+By combining local manufacturing with solar energy and storage, hybrid household systems can operate reliably even
+during prolonged outages.
+</p>
+
+<!-- CONCLUSION -->
+<h3 id="conclusion">Conclusion  
+  <span style="font-size:14px; color:gray;">(Word count: <span class="wc" data-wc="conclusion">0</span>)</span>
+</h3>
+
+<p>
+A practical hybrid household system integrates three components: a solar-powered battery array, a small diesel or LPG
+backup generator and a compact mechanical generator for emergencies (Lal & Raturi, 2012). Solar provides clean,
+free daytime energy; the battery ensures a steady supply; and the backup generator activates only when necessary,
+minimising fuel use (Bekele & Tadesse, 2012). Waste plastics or biomass can also be converted into fuel through
+pyrolysis, creating additional local energy sources (Rahman et al., 2023).
+</p>
+
+<p>
+This hybrid approach ensures reliable household electricity during outages, reduces fossil fuel dependency, lowers
+costs and supports local repair and adaptability (Muzan Williams et al., 2024). Integrating solar, diesel and
+mechanical generation provides sustainable, practical and resilient energy access for low-income households,
+supporting essential needs such as lighting, communication, refrigeration and healthcare.
+</p>
+
+<!-- REFERENCES -->
+<h3 id="references">References  
+  <span style="font-size:14px; color:gray;">(Word count: <span class="wc" data-wc="references">0</span>)</span>
+</h3>
+
+<p>
+All citations listed in your essay text.
+</p>
+
+<!-- ================================ -->
+<!-- JAVASCRIPT FOR TIMESTAMP + WORD COUNT -->
+<!-- ================================ -->
+<script>
+// Timestamp
+function updateTimestamp() {
+    const now = new Date();
+    const ts = now.toLocaleString();
+    document.getElementById("timestamp").textContent = ts;
+}
+updateTimestamp();
+
+// Word counter
+function countWords(text) {
+    return text.trim().split(/\s+/).filter(Boolean).length;
+}
+
+function updateWordCounts() {
+    document.querySelectorAll(".wc").forEach(span => {
+        const sectionID = span.getAttribute("data-wc");
+        const section = document.getElementById(sectionID);
+        if (section) {
+            let words = 0;
+            let next = section.nextElementSibling;
+
+            // Count until next <h3>
+            while (next && next.tagName !== "H3") {
+                if (next.innerText) words += countWords(next.innerText);
+                next = next.nextElementSibling;
+            }
+            span.textContent = words;
+        }
+    });
+}
+updateWordCounts();
+setInterval(updateWordCounts, 1000);
+</script>
+
+</body>
+</html>
