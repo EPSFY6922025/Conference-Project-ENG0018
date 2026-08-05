@@ -73,12 +73,12 @@
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Introduction_InText");
-    const AnalysisandDiscussionCount = displayWordCount("AnalysisandDiscussion_InText");
-    const HybridSystemDesignCount = displayWordCount("HybridSystemDesign_InText");
-    const Combiningideas = displayWordCount("Combiningideas_InText");
+    const AnalysisCount = displayWordCount("Analysis and Discussion_InText");
+    const HybridCount = displayWordCount("Hybrid System Design_InText");
+    const CombiningCount = displayWordCount("Combining ideas_InText");
     const ConclusionCount = displayWordCount("Conslusion_InText");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + AnalysisandDiscussionCount + HybridSystemDesignCount + CombiningideasCount + ConclusionCount;
+    const totalWordCount = IntroductionCount + AnalysisCount + HybridCount + CombiningCount + ConclusionCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
@@ -170,6 +170,8 @@ p.ex1 {
 <p>
 “Over 800 million people still lack access to electricity, and those with a grid-connection often suffer from an unreliable supply” (Rapid market assessment of energy storage, 2019). Unreliable electricity is a highly significant problem for many low-income areas, where the national grids are often poorly maintained, overloaded or affected by political and economic instability (Avordeh et al., 2024). When electrical outages occur, these regions can lose access to lighting, communication and medical care devices. These outages can vary between hours or even days (Avordeh et al., 2024). Hence, it is vital that they have access to affordable and reliable alternatives. “However, the technological and market conditions to unlock these markets remain under-researched.” (Faraday Institution, n.d.).  
 </p>
+    </pre>
+
 
     <h3 id="Analysis and Discussion">Analysis and Discussion </h3>
     <pre id="Analysis and Discussion_InText">
@@ -177,6 +179,8 @@ p.ex1 {
 <p>
 Several solutions exist to help tackle this problem; however, they do not meet all the criteria stated in above paragraphs. (Energy Storage has an Important Role to Play in Developing Countries, n.d.). For example, diesel generators are widely used because in developing regions, extending the main grid is too costly, making diesel generators a practical short-term solution as they are decentralised (Generator Source, 2025) . They provide essential services that improve daily life, but this is a quick solution that has long-term disadvantages (Generator Source, 2025). Such as economic problems from the high and unstable fuel costs, frequent maintenance needs, costly repairs and air and noise pollution (PowerUP Energy Technologies, 2021). Solar panels are a cleaner alternative, but their initial costs can be high as they require careful installation and space. Also their performance depends heavily on the weather (Muzan Williams et al., 2024). However, a lot of poorer regions especially in Africa receive a lot of Sun hence the weather conditions would be easily met. “Solar-battery-genset1 hybrids are 28%-36% cheaper on a USD/kWh basis in countries with high diesel generator capacity, such as Nigeria, Kenya, and India.”(Rapid market assessment of energy storage, 2019). This shows that if enough research, funds and willpower were contributed, poorer regions could highly benefit from solar power due to its lower costs. Another emerging option involves using waste (particularly plastic) and converting it into fuel for electricity via pryolysis (Pyrolysis - an overview | ScienceDirect Topics, n.d.). This solution has a lot of potential but must be carefully managed to avoid health and environmental risks (mainly due to toxic fumes), otherwise it is a cheap, accessible option to support community-scale systems that produces a sustainable power source (Pyrolysis - an overview | ScienceDirect Topics, n.d.). Overall, these options highlight the need for hybrid, affordable, and small-scale systems that combine multiple energy sources and storage options to produce sustainable and reliable electricity. 
 </p>
+    </pre>
+
 
 <h3 id="Hybrid System Design">Hybrid System Design </h3>
     <pre id="Hybird System Design_InText">
@@ -185,6 +189,9 @@ Several solutions exist to help tackle this problem; however, they do not meet a
 An important element to factor in when designing hybrid household systems is strong understanding of generators, particularly how they can help with renewable energy and storage. Generators transform mechanical energy into electricity, which provides a reliable source of power when solar energy is insufficient or during periods of high-demand (Prorichmotor.com, 2022). DC motors can be used in generators and driven by mechanical systems such as hand cranks or pedals (Prorichmotor.com, 2022). In these designs, efficiency needs to be prioritised as it can easily lead to very low power output. Devices like flywheels can also be added to stabilise rotation and smoothen the motor’s motions, ensuring that the electricity delivered to batteries or appliances is consistent (Luo et al., 2015). For generators to be viable in low income communities, they must meet specific design requirements. Cost is critical, so devices should be cheap or made from recycled materials, like bicycle parts, scrap metal, or salvaged electrical components(Dincer & Rosen, 2011). Avoiding complex electronics reduces both costs and failure risk, and the people wouldn’t need high-levels of expertise to repair them. Additionally, generators should be manufactured with common tools, as reliance on high-level machinery or specialised parts makes them less accessible (Dincer & Rosen, 2011). Local manufacturability lowers costs and enables communities to repair or adapt systems independently, it also creates business opportunities which would increase stability in times of economic insecurity (Luo et al., 2015).
 </p>
 
+    </pre>
+
+
 <h3 id="Combining ideas">Combining ideas </h3>
     <pre id="Combining ideas_InText">
 
@@ -192,12 +199,18 @@ An important element to factor in when designing hybrid household systems is str
 By combining these ideas with means of energy storage and solar input, a reliable household/small community scale hybrid system can be designed that involves multiple energy sources and storage to meet the needs while remaining affordable and maintainable even during power outages. An example of such a system would incorporate three parts: a solar-powered battery system, a compact diesel or LPG generator as backup, and a small mechanical generator for emergency use (Lal & Raturi, 2012). The solar part provides clean, cost-free energy during the day and charges a battery bank for night-time use (Luo et al., 2015). The battery stores energy temporarily and ensures steady supply when needed. The backup diesel generator is programmed to run only when the energy in the battery is insufficient which minimises fuel consumption while providing reliability (Bekele & Tadesse, 2012). Finally, plastic waste or biomass can be converted into liquid fuel through a pyrolysis reactor, reducing reliance on external gas stations that may sell expensive fuel at unstable prices and creating an additional local energy source while prioritising sustainability and effective waste management (Rahman et al., 2023). 
 </p>
 
+ </pre>
+
+
 <h3 id="Conclusion">Conclusion </h3>
     <pre id="Conclusion_InText">
 
 <p>
 This hybrid approach achieves multiple objectives: it ensures households have access to reliable energy even during prolonged grid failures, utilises renewable energy to reduce fossil fuel dependency, prioritices affordability and maintainability and incorporates the use of locally sourced or recycling of materials (Muzan Williams et al., 2024; Dincer & Rosen, 2011). The system’s engineering design is guided by the principles outlined above, including generator understanding, mechanical accessibility, and mechanical durability, combined with electrical aspects such as battery capacity and power conversion. By integrating solar, diesel, and mechanical solutions into a single, compact hybrid system, households in low-income regions can achieve sustainable, reliable, and practical electricity access, supporting lighting, communication, refrigeration, and other essential needs that these low-income regions deserve.</p>
+    </p>
+    </pre>
 
+        
     <hr>
 <h2 id="Presentation"><b>Presentation</b></h2>
 
